@@ -1,19 +1,24 @@
 import React from "react";
-// import ReactDOM from "react-dom";
+import ReactDOM from "react-dom";
 import "./App.css";
 import styled from "styled-components";
 import CharacterCardCont from "./components/CharacterCardCont";
+import CharacterCard from "./components/CharacterCard";
 
 const HeaderStyle = styled.h1`
   font-size: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 const AppStyle = styled.div`
-  margin-top: 10%;
+  margin: 0;
 `;
 
 const SubTitle = styled.h2`
-  color: #443e3e;
+  color: #ffffff;
+  margin-top: 12%;
 `;
 
 const App = () => {
@@ -30,6 +35,7 @@ const App = () => {
       <SubTitle>Character List</SubTitle>
 
       <CharacterCardCont />
+      <CharacterCard />
     </AppStyle>
   );
 };

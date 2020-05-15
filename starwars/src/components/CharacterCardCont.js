@@ -1,11 +1,20 @@
 import React, { useState, useEffect } from "react";
-// import ReactDOM from "react-dom";
+import ReactDOM from "react-dom";
 import CharacterCard from "./CharacterCard";
 import axios from "axios";
 import styled from "styled-components";
 
 const CharacterCardDiv = styled.div`
   margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 4%;
+  margin-right: 4%;
 `;
 
 const CharacterCardCont = () => {
@@ -39,7 +48,7 @@ const CharacterCardCont = () => {
           hair={person.hair_color}
           eyes={person.eye_color}
           sex={person.gender}
-          films={person.films}
+          //   films={person.films}
         />
       ))}
       ))
