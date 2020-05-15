@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import ReactDOM from "react-dom";
+import React from "react";
+// import ReactDOM from "react-dom";
 import "./App.css";
 import styled from "styled-components";
 import CharacterCardCont from "./components/CharacterCardCont";
