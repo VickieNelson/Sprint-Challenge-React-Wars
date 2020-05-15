@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
 import "./App.css";
 import styled from "styled-components";
-import CharCardCont from "./components/CharacterCardCont";
+import CharacterCardCont from "./components/CharacterCardCont";
 
 const HeaderStyle = styled.h1`
   font-size: 5rem;
@@ -29,7 +29,7 @@ const App = () => {
       <HeaderStyle className='Header'>React Wars</HeaderStyle>
       <SubTitle>Character List</SubTitle>
 
-      <CharCardCont />
+      <CharacterCardCont />
     </AppStyle>
   );
 };
