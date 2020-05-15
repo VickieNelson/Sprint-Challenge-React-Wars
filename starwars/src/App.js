@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import ReactDOM from "react-dom";
 import "./App.css";
 import styled from "styled-components";
 import CharCardCont from "./components/CharacterCardCont";
